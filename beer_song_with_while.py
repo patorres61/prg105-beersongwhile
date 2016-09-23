@@ -1,4 +1,6 @@
-# 99 Bottles of Beer on the Wall using a While statement
+# Phyllis Torres
+# Beer Song with a while statement Program
+#  99 Bottles of Beer on the Wall using a While statement
 
 # define the index
 num_beers = 99
@@ -11,14 +13,14 @@ while num_beers > 0:
         print(" bottle of beer.")
         print("Take one down and pass it around,"),
         print(" no more bottles of beer on the wall.\n")
-        num_beers -= 1
+        num_beers -= 1                  # subtract one from the index
     else:
         print(num_beers),
         print(" bottles of beer on the wall,"),
         print(num_beers),
         print(" bottles of beer.")
         print("Take one down and pass it around,"),
-        num_beers -= 1
+        num_beers -= 1                  # subtract one from the index
         if num_beers == 1:              # checking index - if it is one, change bottles to bottle
             print(num_beers),
             print(" bottle of beer on the wall.\n")
